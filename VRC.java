@@ -106,7 +106,7 @@ public class VRC {
 	}
 	
 	public static double[] minDist(double[][] points) {
-		double minD = 10000;
+		double minD = 2147483647;
 		double point1 = -1;
 		double point2 = -1;
 		double distance;
